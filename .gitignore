@@ -32,6 +32,7 @@ migrate_working_dir/
 .pub-cache/
 .pub/
 /build/
+/lib/domain/core/static_data/static_data.dart/
 
 # Symbolication related
 app.*.symbols
