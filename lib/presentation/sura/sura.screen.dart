@@ -83,7 +83,7 @@ class _SuraScreenState extends ConsumerState<SuraScreen>
                         color: AppColors.deepTeal,
                         child: Column(
                           children: [
-                            SuraHeader(suraCount: suraList.length),
+                            //SuraHeader(suraCount: suraList.length),
                             Expanded(
                               child: SuraList(suraList: suraList),
                             ),

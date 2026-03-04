@@ -171,26 +171,6 @@ class _PrayerScreenState extends State<PrayerScreen> with TickerProviderStateMix
         children: [
           Row(
             children: [
-              GestureDetector(
-                onTap: () => Navigator.of(context).pop(),
-                child: Container(
-                  padding: const EdgeInsets.all(10),
-                  decoration: BoxDecoration(
-                    color: AppColors.tealLighter.withOpacity(0.2),
-                    borderRadius: BorderRadius.circular(12),
-                    border: Border.all(
-                      color: AppColors.richGold.withOpacity(0.3),
-                      width: 1,
-                    ),
-                  ),
-                  child: const Icon(
-                    Icons.arrow_back_ios_new,
-                    color: AppColors.richGold,
-                    size: 20,
-                  ),
-                ),
-              ),
-              const SizedBox(width: 16),
               Expanded(
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,

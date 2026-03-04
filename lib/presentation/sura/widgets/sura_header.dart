@@ -64,32 +64,6 @@ class SuraHeader extends StatelessWidget {
               ],
             ),
           ),
-          Container(
-            padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
-            decoration: BoxDecoration(
-              color: AppColors.pureWhite.withOpacity(0.2),
-              borderRadius: BorderRadius.circular(12),
-            ),
-            child: Row(
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                const Icon(
-                  Icons.touch_app_rounded,
-                  size: 16,
-                  color: AppColors.pureWhite,
-                ),
-                const SizedBox(width: 6),
-                Text(
-                  'Tap to explore',
-                  style: GoogleFonts.poppins(
-                    fontSize: 12,
-                    color: AppColors.pureWhite,
-                    fontWeight: FontWeight.w600,
-                  ),
-                ),
-              ],
-            ),
-          ),
         ],
       ),
     );

@@ -25,7 +25,7 @@ import 'route_names.dart';
 
 final goRouterProvider = Provider<GoRouter>((ref) {
   return GoRouter(
-    initialLocation: RouteNames.home,
+    initialLocation: RouteNames.splash,
     debugLogDiagnostics: true, // Remove in production
 
     // ============ ERROR HANDLING ============
