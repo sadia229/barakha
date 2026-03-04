@@ -1,0 +1,2 @@
+export 'package:ramadan/infrastructure/navigation/bindings/controllers/chat.controller.binding.dart'; 
+export 'package:ramadan/infrastructure/navigation/bindings/controllers/home.controller.binding.dart'; 
