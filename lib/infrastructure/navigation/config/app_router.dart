@@ -11,7 +11,6 @@ import 'package:ramadan/presentation/home/main_scaffold.screen.dart';
 import 'package:ramadan/presentation/no_internet/no_internet.screen.dart';
 import 'package:ramadan/presentation/onboarding/onboarding.screen.dart';
 import 'package:ramadan/presentation/prayer/prayer.screen.dart';
-import 'package:ramadan/presentation/quran/quran.screen.dart';
 import 'package:ramadan/presentation/self_talk/self_talk.screen.dart';
 import 'package:ramadan/presentation/splash/splash.screen.dart';
 import 'package:ramadan/presentation/sura/sura.screen.dart';

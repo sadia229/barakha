@@ -12,7 +12,6 @@ import 'package:ramadan/presentation/shared/headers/app.header.dart';
 import '../../infrastructure/navigation/config/route_names.dart';
 import '../shared/cards/current_prayer_time_card.dart';
 import '../shared/widgets/iftar_countdown.dart';
-import '../shared/widgets/categories_scroll.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});

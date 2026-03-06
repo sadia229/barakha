@@ -3,7 +3,6 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 import 'infrastructure/navigation/bindings/domains/domain_di_container.dart';
 import 'infrastructure/navigation/config/app_router.dart';
-import 'infrastructure/navigation/routes.dart';
 import 'infrastructure/theme/app.theme.dart';
 
 Future<void> main() async {
@@ -13,7 +12,7 @@ Future<void> main() async {
     anonKey: 'sb_publishable_7n0zxrokS2LMedc6rw_6EQ_bUn82CwR',
   );
   await DomainLayerDependencyInjectionContainer.init();
-  var initialRoute = await Routes.initialRoute;
+  //var initialRoute = await Routes.initialRoute;
   //runApp(Main(initialRoute));
   runApp(
     const ProviderScope(

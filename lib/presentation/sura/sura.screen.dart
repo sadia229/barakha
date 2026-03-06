@@ -6,7 +6,6 @@ import 'package:intl/intl.dart';
 import 'package:ramadan/infrastructure/theme/app.colors.dart';
 import 'package:ramadan/presentation/shared/loaders/app_loader.dart';
 import 'package:ramadan/presentation/sura/providers/sura_provider.dart';
-import 'package:ramadan/presentation/sura/widgets/sura_header.dart';
 import 'package:ramadan/presentation/sura/widgets/sura_list.dart';
 import '../shared/errors/app_error.dart';
 

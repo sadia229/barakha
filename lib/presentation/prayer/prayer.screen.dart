@@ -202,7 +202,7 @@ class _PrayerScreenState extends State<PrayerScreen> with TickerProviderStateMix
                   color: AppColors.richGold.withOpacity(0.2),
                   borderRadius: BorderRadius.circular(12),
                 ),
-                child: Icon(
+                child: const Icon(
                   Icons.mosque_rounded,
                   color: AppColors.richGold,
                   size: 24,
@@ -294,7 +294,7 @@ class _PrayerScreenState extends State<PrayerScreen> with TickerProviderStateMix
             child: Row(
               mainAxisSize: MainAxisSize.min,
               children: [
-                Icon(
+                const Icon(
                   Icons.schedule_rounded,
                   size: 16,
                   color: AppColors.pureWhite,
@@ -362,7 +362,7 @@ class _PrayerScreenState extends State<PrayerScreen> with TickerProviderStateMix
                     Container(
                       width: 120,
                       height: 120,
-                      decoration: BoxDecoration(
+                      decoration: const BoxDecoration(
                         shape: BoxShape.circle,
                         color: AppColors.tealOpacity20,
                       ),
@@ -377,7 +377,7 @@ class _PrayerScreenState extends State<PrayerScreen> with TickerProviderStateMix
                           child: Container(
                             width: 120,
                             height: 120,
-                            decoration: BoxDecoration(
+                            decoration: const BoxDecoration(
                               shape: BoxShape.circle,
                               color: AppColors.deepTeal,
                             ),
@@ -441,7 +441,7 @@ class _PrayerScreenState extends State<PrayerScreen> with TickerProviderStateMix
                 Container(
                   width: 8,
                   height: 8,
-                  decoration: BoxDecoration(
+                  decoration: const BoxDecoration(
                     shape: BoxShape.circle,
                     color: AppColors.deepTeal,
                   ),
